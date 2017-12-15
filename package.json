@@ -1,0 +1,23 @@
+{
+  "name": "paymanteau",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paymanteau/website.git"
+  },
+  "keywords": [
+    "website",
+    "paymanteau"
+  ],
+  "author": "cb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paymanteau/website/issues"
+  },
+  "homepage": "https://github.com/paymanteau/website#readme"
+}

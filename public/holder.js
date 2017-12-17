@@ -10,6 +10,7 @@ License:  MIT
 
 */
 (function (window) {
+   'use strict';
   if (!window.document) return;
   var document = window.document;
 

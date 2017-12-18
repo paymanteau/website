@@ -20,7 +20,7 @@ h1, h2 {margin:0;letter-spacing:-1px}
 h2.ie {font:3em inherit;color:red;position:fixed;top:0px;margin:0;z-index:2;width:100%;background:yellow}
 
 #content {position:absolute;z-index:1;top:120px;left:0px;height:230px;color:#555;font-size:12px}
-#content-inner {padding:20px;overflow:hidden;width:500px}
+#content-inner {padding:20px;overflow:hidden;width:800px}
 .block {float:left;width:200px;margin-right:40px}
 #details {width:220px}
 .block.header h1 {margin-bottom:20px;color:#e67300;font-size:24px}
@@ -28,13 +28,14 @@ h2.ie {font:3em inherit;color:red;position:fixed;top:0px;margin:0;z-index:2;widt
 .block.fluid {width:auto}
 .block p {margin:0;margin-bottom:16px;line-height:16px}
 .block code {border-radius:4px;font-size:12px;font-family:'Lucida Console',monospace;background:#eee;text-align:center;display:block;padding:4px;white-space:nowrap}
-
 #download {background:#ff9900;display:block;text-align:center;font-weight:bold;color:#fff;padding:4px 0;font-size:14px;border-radius:4px;text-decoration:none;text-shadow:0px 1px 0px rgba(0,0,0, 0.2);box-shadow:0px 0px 0px #cc6600}}
 #download:hover {box-shadow:0px 2px 0px #cc6600}
 #download, #download:hover {transition:all 0.1s ease-out}
 
 #background {position:fixed;z-index:2}
 #background img {position:absolute;display:block}
+#image {width:140px; height:135px;}
+.paymanteau-logo {margin:0px 0px 0 0;height:133px;width:114px;display: block;}
 </style>
 </head>
 <body>
@@ -63,6 +64,12 @@ h2.ie {font:3em inherit;color:red;position:fixed;top:0px;margin:0;z-index:2;widt
 				<!--<code>&lt;img src="paymanteau.js/300x200"&gt;</code>-->
 				See the <a href="https://ripple.com/xrp/market-performance/">Market Performance</a>.
 			</p>
+		</div>
+            <div class="block" id="image">
+        <iron-image
+          class="paymanteau-logo"
+          src="pmtlogo.svg"
+        ></iron-image>
 		</div>
 	</div>
 </div>
